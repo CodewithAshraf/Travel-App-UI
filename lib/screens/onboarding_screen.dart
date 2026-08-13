@@ -47,7 +47,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       // Navigate to your Home/Login Screen
       // print("Navigate to Home Screen");
       Navigator.push(
-        context, MaterialPageRoute(builder: (context)=> const homepage())
+        context, MaterialPageRoute(builder: (context)=> const Homepage())
         
         );
     }

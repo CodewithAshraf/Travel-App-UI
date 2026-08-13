@@ -9,3 +9,17 @@ class OnboardingModel {
     required this.description,
   });
 }
+
+class Place {
+  final String image;
+  final String name;
+  final String newtour;
+  final String members;
+
+  Place({
+    required this.image,
+    required this.name,
+    required this.newtour,
+    required this.members,
+  });
+}
